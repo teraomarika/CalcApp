@@ -13,12 +13,12 @@ class Subapp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_subapp)
 
-        val value1 = intent.getDoubleExtra("VALUE1", 0.0)
+     val value1  = intent.getDoubleExtra("VALUE1", 0.0)
         val value2 = intent.getDoubleExtra("VALUE2", 0.0)
 
         answer.text = "${value1 + value2}"
 
-//        answer.text="${value1-value2}"
+
 //        answer.text="${value1*value2}"
 //        answer.text="${value1/value2}"
 

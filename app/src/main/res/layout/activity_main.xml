@@ -20,7 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="121dp"
         android:layout_marginTop="125dp"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal|number"/>
 
     <EditText
         android:id="@+id/edit2"
@@ -30,7 +30,7 @@
         android:layout_marginLeft="3dp"
         android:layout_marginTop="125dp"
         android:layout_toRightOf="@+id/edit1"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal|number"/>
 
     <Button
         android:id="@+id/button_plus"
@@ -80,6 +80,7 @@
         android:text="計算しよう！"
         android:textColor="@android:color/holo_purple"
         android:layout_centerInParent="true"
+        android:id="@+id/textView"
         android:textSize="40sp" />
 
 
